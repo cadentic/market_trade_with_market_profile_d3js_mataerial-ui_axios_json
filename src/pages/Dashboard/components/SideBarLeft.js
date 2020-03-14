@@ -8,6 +8,7 @@ const SideBarLeftContainer = styled.div`
     background:  #2a2f42 ;
     height: 100%;
     padding-top: 100px;
+    width: 70px;
 `
 
 const LinkContainer = styled.ul`

@@ -1,0 +1,85 @@
+{
+    "trade": [
+      {
+        "eurAmount": 549.658,
+        "eurPercentage": 0.53,
+        "eurGain": 68.9,
+        "usAmount": 249.6,
+        "usPercentage": -0.03,
+        "usGain": -15.6
+      },
+      {
+        "eurAmount": 249.6,
+        "eurPercentage": 0,
+        "eurGain": 15.6,
+        "usAmount": 249.6,
+        "usPercentage": 0.03,
+        "usGain": 15
+      },
+      {
+        "eurAmount": 549.658,
+        "eurPercentage": 0.53,
+        "eurGain": 68.9,
+        "usAmount": 249.6,
+        "usPercentage": -0.03,
+        "usGain": -15.6
+      },
+      {
+        "eurAmount": 249.6,
+        "eurPercentage": 0,
+        "eurGain": 15.6,
+        "usAmount": 249.6,
+        "usPercentage": 0.03,
+        "usGain": 15
+      },
+      {
+        "eurAmount": 549.658,
+        "eurPercentage": 0.53,
+        "eurGain": 68.9,
+        "usAmount": 249.6,
+        "usPercentage": -0.03,
+        "usGain": -15.6
+      },
+      {
+        "eurAmount": 249.6,
+        "eurPercentage": 0,
+        "eurGain": 15.6,
+        "usAmount": 249.6,
+        "usPercentage": 0.03,
+        "usGain": 15
+      }
+    ],
+    "messages" : [
+      {"msg" : "Utque aegrum corpus quassari etiam levibus solet offensis, ita animus eius angustus et tener, quicquid increpuisset, ad salutis suae dispendium"},
+      {"msg" : "Utque aegrum corpus quassari etiam levibus solet offensis, ita animus eius angustus et tener, quicquid increpuisset, ad salutis suae dispendium"},
+      {"msg" : "Utque aegrum corpus quassari etiam levibus solet offensis, ita animus eius angustus et tener, quicquid increpuisset, ad salutis suae dispendium"},
+      {"msg" : "Utque aegrum corpus quassari etiam levibus solet offensis, ita animus eius angustus et tener, quicquid increpuisset, ad salutis suae dispendium"},
+      {"msg" : "Utque aegrum corpus quassari etiam levibus solet offensis, ita animus eius angustus et tener, quicquid increpuisset, ad salutis suae dispendium"}
+    ],
+    "infos" : [
+      {
+        "info" : "30 Seconds Yesterday",
+        "percentage" : 46
+      },
+      {
+        "info" : "30 Seconds Yesterday",
+        "percentage" : 46
+      },
+      {
+        "info" : "30 Seconds Yesterday",
+        "percentage" : 46
+      },
+      {
+        "info" : "30 Seconds Yesterday",
+        "percentage" : 46
+      },
+      {
+        "info" : "30 Seconds Yesterday",
+        "percentage" : 46
+      },
+      {
+        "info" : "30 Seconds Yesterday",
+        "percentage" : 46
+      }
+    ]
+}

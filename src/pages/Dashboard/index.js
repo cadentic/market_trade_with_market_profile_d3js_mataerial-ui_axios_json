@@ -1,7 +1,13 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import SideBarLeft from './components/SideBarLeft';
 import SideBarRight from './components/SideBarRight';
+import GraphChart from './components/GraphChart';
+import { getData } from "./components/utils"
 import styled from 'styled-components';
+import myData from '../../data.json'
+import InfoTrade from './components/InfoTade';
+import Message from './components/Message';
+import CardTrade from './components/CardTrade';
 
 const AppBar = styled.div`
     width: 100%;
@@ -16,19 +22,54 @@ const AppBarText = styled.h2`
 `
 
 const Main = styled.div`
-    background-color: radial-gradient(#5a6680, #303646);
-    height: 100%;
+    display: flex;
+    margin-right: 220px;
+    margin-left: 70px;
+`
+const Content = styled.div`
+     
 `
 
 const Dashboard = () => {
+
+    const [data, setData] = useState(null)
+
+    useEffect(() => {
+        getData().then(data => {
+            setData(data)
+        })
+    }, [])
+
     return(
         <>
             <SideBarLeft/>
+            <AppBar>
+                <AppBarText>TRADING PLATFORM</AppBarText>
+            </AppBar>
             <SideBarRight />
-            <Main>  
-                <AppBar>
-                    <AppBarText>TRADING PLATFORM</AppBarText>
-                </AppBar>
+            <Main id="container"> 
+                <div style={{width: '30%', height: '100%'}}>
+                        <InfoTrade 
+                            data={myData.trade}
+                        />
+      
+                        <Message 
+                            messages={myData.messages}
+                        />
+                </div>
+                
+                <Content>
+                    {
+                        data === null ? 
+                        <div>Loading</div>
+                                    :
+                        <GraphChart data={data} />
+                    }
+                    <CardTrade 
+                        infos={myData.infos}
+                    />
+                </Content>
+                
             </Main>
         </>
     )

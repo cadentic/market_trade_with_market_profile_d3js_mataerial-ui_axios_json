@@ -7,9 +7,9 @@ const SideBarRightContainer = styled.div`
     top: 0;
     right: 0;
     background:  #2a2f42 ;
-    height: 100%;
-    padding: 100px 8px;
+    padding: 100px 8px 100px 8px;
     width: 200px;
+    height: 100%;
 `
 
 const HightTitle = styled.h3`
